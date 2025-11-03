@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaxon Tan | Software Engineering Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <span class="brand-mark">JT</span>
+          <div class="brand-text">
+            <p>Portfolio</p>
+            <h1>Jaxon Tan</h1>
+          </div>
+        </div>
+        <nav class="navigation" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="primary-menu">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Expertise</a></li>
+            <li><a href="#projects">Featured Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-contact">
+          <a href="mailto:yjtanyuejun@outlook.com">yjtanyuejun@outlook.com</a>
+          <a href="tel:+6588336542">+65 8833 6542</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="container">
+          <div class="hero-content">
+            <p class="eyebrow">Hi, I'm Jaxon</p>
+            <h2 id="intro-title">Building stuff & learning as I go</h2>
+            <p>
+              I'm a student at NYP studying software engineering. I like building web apps and working on projects that actually solve problems. Still figuring things out, but that's part of the fun.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#contact">Get in Touch</a>
+              <a class="btn secondary" href="#projects">See My Work</a>
+            </div>
+          </div>
+          <div class="hero-card" role="presentation">
+            <div class="stat">
+              <span class="label">Focus Areas</span>
+              <span class="value">AI • Web • Product</span>
+            </div>
+            <div class="stat">
+              <span class="label">Primary Stack</span>
+              <span class="value">TypeScript, Python, React</span>
+            </div>
+            <div class="stat">
+              <span class="label">Availability</span>
+              <span class="value">Open for internships 2025</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-eyebrow">About Me</p>
+            <h2 id="about-title">Who I am & what I do</h2>
+          </div>
+          <div class="about-content">
+            <p>
+              I'm currently studying at Nanyang Polytechnic in the DIME program. Started coding a few years back and haven't stopped since. I enjoy the process of taking an idea and turning it into something people can actually use.
+            </p>
+            <p>
+              Most of my time goes into building web apps, working with APIs, and experimenting with new tech. I'm not perfect at it, but I'm always trying to get better. Love working with others and learning from them.
+            </p>
+            <ul class="skills">
+              <li>Web Development</li>
+              <li>Backend APIs</li>
+              <li>React & TypeScript</li>
+              <li>Python</li>
+              <li>Database Design</li>
+              <li>UI/UX Design</li>
+            </ul>
+            <div class="focus-areas">
+              <h3>Focus Areas</h3>
+              <p>AI • Web3.0 • Solutioning</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline" aria-label="Milestones">
+        <div class="container">
+          <div class="timeline-item">
+            <div class="year">2022</div>
+            <h3>Started at NYP</h3>
+            <p>Joined the DIME program and realized I wanted to build things for a living.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">2023</div>
+            <h3>Enrollment</h3>
+            <p>2D design, web design, networking, web developing, IoT</p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">2024</div>
+            <h3>Specialist in Software & Application</h3>
+            <p>Focused on advanced software development and application design.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">2025</div>
+            <h3>Final Year Project</h3>
+            <p>Working on an AI study app with my classmates. It's challenging but exciting.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-eyebrow">What I Do</p>
+            <h2 id="services-title">Skills & Interests</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>Full Stack Development</h3>
+              <p>
+                Building complete web applications from frontend to backend. Still learning and expanding my knowledge across the entire stack.
+              </p>
+              <a href="#projects" class="service-link">See Projects</a>
+            </article>
+            <article class="service-card">
+              <h3>Mobile Development</h3>
+              <p>
+                Creating mobile applications for iOS and Android platforms. Still learning the ins and outs of mobile app development.
+              </p>
+              <a href="#projects" class="service-link">See Projects</a>
+            </article>
+            <article class="service-card">
+              <h3>UI/UX Design</h3>
+              <p>
+                Designing intuitive and visually appealing user interfaces and experiences. Creating designs that are both functional and beautiful.
+              </p>
+              <a href="#projects" class="service-link">See Projects</a>
+            </article>
+            <article class="service-card">
+              <h3>Cloud Solutions</h3>
+              <p>
+                Working with containerization and deployment using Docker. Building scalable and efficient cloud-based solutions.
+              </p>
+              <a href="#projects" class="service-link">See Projects</a>
+            </article>
+            <article class="service-card">
+              <h3>Networking</h3>
+              <p>
+                Understanding network protocols, configurations, and infrastructure. Building reliable connections and secure communications.
+              </p>
+              <a href="#projects" class="service-link">See Projects</a>
+            </article>
+            <article class="service-card">
+              <h3>Problem Solving</h3>
+              <p>
+                I enjoy breaking down complex problems and finding practical solutions. That's pretty much what coding is anyway.
+              </p>
+              <a href="#projects" class="service-link">See Projects</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="video" aria-labelledby="video-title">
+        <div class="container">
+          <div class="video-card">
+            <h2 id="video-title">Check out my work</h2>
+            <p>
+              Sometimes I record demos of my projects. Nothing fancy, just showing what I've been working on.
+            </p>
+            <a class="btn ghost" href="https://www.youtube.com/@jaxontan" target="_blank" rel="noopener">Watch Videos</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-eyebrow">My Projects</p>
+            <h2 id="projects-title">Things I've Built</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <header>
+                <p class="project-meta">APRIL 2024</p>
+                <h3>Movie Themed Website</h3>
+              </header>
+              <p>
+                A movie-themed website showcased as one of the best projects in the end semester showcase. Features interactive design and comprehensive movie information.
+              </p>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <header>
+                <p class="project-meta">SEPTEMBER 2024</p>
+                <h3>Snake Game (OOP)</h3>
+              </header>
+              <p>
+                A classic Snake game built using Object-Oriented Programming principles in C#. Developed in Microsoft Visual Studio with clean code architecture.
+              </p>
+              <ul>
+                <li>C#</li>
+                <li>Visual Studio</li>
+                <li>OOP Design</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <header>
+                <p class="project-meta">JANUARY 2025</p>
+                <h3>Personal Schedule App</h3>
+              </header>
+              <p>
+                A custom schedule management app designed to organize both work and study commitments. Features task tracking, calendar integration, and productivity tools.
+              </p>
+              <ul>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Calendar API</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials" aria-labelledby="testimonials-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-eyebrow">Testimonials</p>
+            <h2 id="testimonials-title">What People Say</h2>
+          </div>
+          <div class="testimonial-grid">
+            <blockquote class="testimonial-card">
+              <p>
+                "Jaxon is a fast learner and adapts to new environments remarkably well. His ability to quickly pick up new concepts and technologies makes him a valuable team member."
+              </p>
+              <footer>
+                <cite>Manager</cite>
+                <span>Remnants Holdings, 2024</span>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p>
+                "He's helpful and easy to work with. Good at figuring things out and has a positive attitude, which makes a difference."
+              </p>
+              <footer>
+                <cite>Andre Quek</cite>
+                <span>Internship Mentor, 2023</span>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p>
+                "Really dependable. If Jaxon says he'll do something, you can count on it getting done. Takes feedback well too."
+              </p>
+              <footer>
+                <cite>Wei Ling</cite>
+                <span>Classmate & Teammate, 2025</span>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" aria-label="Snapshots">
+        <div class="container">
+          <div class="gallery-header">
+            <h2>Some photos</h2>
+            <a href="https://www.instagram.com/jax.codes" target="_blank" rel="noopener">See More →</a>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-tile" aria-hidden="true"></div>
+            <div class="gallery-tile" aria-hidden="true"></div>
+            <div class="gallery-tile" aria-hidden="true"></div>
+            <div class="gallery-tile" aria-hidden="true"></div>
+            <div class="gallery-tile" aria-hidden="true"></div>
+            <div class="gallery-tile" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-card">
+            <h2 id="contact-title">Let's work together</h2>
+            <p>Looking for internship opportunities or freelance projects. Feel free to reach out—I'm always happy to chat.</p>
+            <div class="contact-info">
+              <div>
+                <span>Email</span>
+                <a href="mailto:yjtanyuejun@outlook.com">yjtanyuejun@outlook.com</a>
+              </div>
+              <div>
+                <span>Phone</span>
+                <a href="tel:+6588336542">+65 8833 6542</a>
+              </div>
+              <div>
+                <span>Find Me</span>
+                <a href="https://www.linkedin.com/in/jaxon-tan" target="_blank" rel="noopener">linkedin.com/in/jaxon-tan</a>
+              </div>
+            </div>
+            <a class="btn primary" href="mailto:yjtanyuejun@outlook.com">Send me an Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Expertise</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <p>© <span id="year"></span> Built by Jaxon Tan — All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector('.nav-toggle');
+      const menu = document.querySelector('#primary-menu');
+
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('open');
+      });
+
+      document.querySelector('#year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
